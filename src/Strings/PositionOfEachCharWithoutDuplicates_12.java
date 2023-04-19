@@ -1,5 +1,6 @@
 package Strings;
 
+import java.util.ArrayList;
 import java.util.LinkedHashSet;
 
 public class PositionOfEachCharWithoutDuplicates_12 {
@@ -9,7 +10,7 @@ public class PositionOfEachCharWithoutDuplicates_12 {
 		String s="Tester"; //t-1,e-2,s-3,r-6
 		String st=s.toLowerCase();
 		LinkedHashSet<Character> set= new LinkedHashSet<>();
-
+		//ArrayList<Character> set= new ArrayList<>();
 		for(int i=0; i<st.length();i++){
 			set.add(st.charAt(i));
 		}

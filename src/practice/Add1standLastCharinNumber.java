@@ -1,6 +1,6 @@
 package practice;
 
-public class Practice {
+public class Add1standLastCharinNumber {
 
 	public static void main(String[] args) {
 		int n=12345;
