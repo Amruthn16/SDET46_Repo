@@ -1,10 +1,10 @@
-package numbers;
+package numbers.prime;
 
 public class PrimeNumber {
 
 	public static void main(String[] args) {
 		
-		int n=2;
+		int n=13;
 		int count=0;
 		for (int i=1; i<=n; i++) {
 			if(n%i==0) {

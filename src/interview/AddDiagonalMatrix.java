@@ -4,12 +4,12 @@ public class AddDiagonalMatrix {
 
 	public static void main(String[] args) {
 
-		int [][] a= {{1,2,3},{4,5,6},{7,8,9}};
+		int [][] a= {{1,2,3},{4,5,6},{7,8,9}}; //0
 		int sum=0;
 		int sum1=0;
 
 		for (int i = 0; i < a.length; i++) {
-			for (int j = 0; j <=i; j++) {
+			for (int j = 0; j<a.length; j++) {
 				if(i==j) {
 					sum=sum+a[i][j];
 				}
@@ -21,7 +21,5 @@ public class AddDiagonalMatrix {
 			}
 		}
 		System.out.println(sum-sum1);
-
-
 	}
 }

@@ -1,4 +1,4 @@
-package numbers;
+package numbers.prime;
 
 public class FindPrimeNumber0to20 {
 

@@ -36,7 +36,7 @@ public class MapTopic {
 		for ( Entry<Integer, String> m : map.entrySet()) {
 			System.out.println(m.getKey()+ " " +m.getValue());
 		}
-		System.out.println("==========================================");
+		System.out.println("=================map=========================");
 		System.out.println(map.containsKey(10));
 		System.out.println(map.containsValue("Amruth"));
 		System.out.println("size " + map.size());

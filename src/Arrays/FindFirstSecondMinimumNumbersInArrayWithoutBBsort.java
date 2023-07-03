@@ -22,5 +22,4 @@ public class FindFirstSecondMinimumNumbersInArrayWithoutBBsort {
 		System.out.println("First minimum number --> "+firstMin);
 		System.out.println("Second minimum number --> "+secondMin);
 	}
-
 }

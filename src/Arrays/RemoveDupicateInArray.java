@@ -17,7 +17,5 @@ public class RemoveDupicateInArray {
 //		for (Integer num : set) {
 //			System.out.print(num+ " ");
 //		}
-		
 	}
-
 }

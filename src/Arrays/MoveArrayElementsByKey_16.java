@@ -1,4 +1,4 @@
-package practice;
+package Arrays;
 
 public class MoveArrayElementsByKey_16 {
 
@@ -6,13 +6,13 @@ public class MoveArrayElementsByKey_16 {
 
 		int [] arr = {2, 4, 6, 8, 10, 12};
 		
-		int n = 2;
+		int n = 3;
 		
 		for(int i = 0; i < n; i++){ 
 			int j, firstElement;
 			
 			firstElement = arr[0]; 
-			for(j = 0; j < arr.length-1; j++){ 
+			for( j = 0; j < arr.length-1; j++){ 
 				arr[j] = arr[j+1]; 
 			}
 			arr[j] = firstElement; 

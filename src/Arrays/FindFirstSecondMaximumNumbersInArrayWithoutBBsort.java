@@ -8,7 +8,7 @@ public class FindFirstSecondMaximumNumbersInArrayWithoutBBsort {
 		int firstMax=a[0];
 		int secondMax=a[0];
 		for (int i = 1; i < a.length; i++) {
-				if(firstMax<=a[i]) {
+				if(a[i]>=firstMax) {
 					
 					if(a[i]!=firstMax) {
 						secondMax=firstMax;
@@ -19,8 +19,8 @@ public class FindFirstSecondMaximumNumbersInArrayWithoutBBsort {
 					secondMax=a[i];
 			}
 		}
-		System.out.println("First minimum number --> "+firstMax);
-		System.out.println("Second minimum number --> "+secondMax);
+		System.out.println("First maximum number --> "+firstMax);
+		System.out.println("Second maximum number --> "+secondMax);
 		
 	}
 

@@ -3,7 +3,7 @@ package practice;
 public class Add1standLastCharinNumber {
 
 	public static void main(String[] args) {
-		int n=12345;
+		int n=123;
 		int sum=0;
 		while(n>9) { //123t, 6f
 			sum=0;

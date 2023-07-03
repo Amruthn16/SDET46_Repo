@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 public class FindFirstNonDuplicateChar {
 
 	public static void main(String[] args) {
-		String str="aabbcdef";
+		String str="aagbbcdef";
 
 		LinkedHashSet<Character> set= new LinkedHashSet<>();
 		for (int i = 0; i < str.length(); i++) {

@@ -6,7 +6,7 @@ public class OccuranceOfEachCharacter_8 {
 
 	public static void main(String[] args) {
 
-		String s="TestYantra";
+		String s="vishwas";
 		String st = s.toLowerCase();
 
 		LinkedHashSet<Character> set= new LinkedHashSet<>();

@@ -4,7 +4,7 @@ public class Append0sAtFirst {
 
 	public static void main(String[] args) {
 
-		int a[]= {0,1,0,0,1}; //o/p=> 0,0,0,1,1
+		int a[]= {0,1,0,0,1,1,3,5}; //o/p=> 0,0,0,1,1
 		int[] b= new int[a.length];
 		int m=0;
 		int n=a.length-1; //4
@@ -21,5 +21,4 @@ public class Append0sAtFirst {
 			System.out.print(b[i]+" ");
 		}		
 	}
-
 }

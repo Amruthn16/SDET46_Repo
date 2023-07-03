@@ -14,6 +14,6 @@ public class ReverseTheWords_4{
 				System.out.print(str.charAt(j));
 			}
 			System.out.print(" ");
-		}
+		} 
 	}
 }

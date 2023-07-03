@@ -20,9 +20,6 @@ public class CountVowelsWithoutDuplicate_17 {
 				System.out.print(ch+ " ");
 			}
 		}
-		System.out.println();
-		System.out.println("No of vowels present --> "+count);
-
+		System.out.println("\nNo of vowels present --> "+count);
 	}
-
 }

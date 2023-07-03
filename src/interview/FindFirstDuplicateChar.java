@@ -5,15 +5,12 @@ import java.util.LinkedHashSet;
 public class FindFirstDuplicateChar {
 
 	public static void main(String[] args) {
-		String str="aabbcdef";
-		boolean flag=false;
+		String str="aabbcdaef";
 		LinkedHashSet<Character> set= new LinkedHashSet<Character>();
 		for (int i = 0; i < str.length(); i++) {
-			flag=set.add(str.charAt(i));
-			if(flag==false) {
+			if(set.add(str.charAt(i))==false);
 				System.out.println(str.charAt(i));
 				break;
-			}
 		}
 	}
 }

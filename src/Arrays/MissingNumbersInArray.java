@@ -6,10 +6,20 @@ public class MissingNumbersInArray {
 
 	public static void main(String[] args) {
 
-		int [] a= {1,4,6,8,10}; //2,3,5,7,9
+		int [] a= {7,4,6,8,10,16, 6,4 }; //5 9 11 12 13 14 15
 		
+		int Max=a[0];
+		int Min=a[0];
+		for (int i = 1; i < a.length; i++) {
+				if(a[i]<Min) {
+					Min=a[i];
+					
+				}else if(a[i]>Max) {
+					Max=a[i];
+				}
+			}
 		
-		for (int i = 1; i <=10; i++) {
+		for (int i = Min; i <=Max; i++) {
 			boolean flag = true;
 			for (int j = 0; j <a.length; j++) {
 				if(i==a[j]) {

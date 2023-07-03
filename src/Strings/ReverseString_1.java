@@ -7,30 +7,34 @@ public class ReverseString_1 {
 		String st="Bangalore";
 		
 		//1st way --> using rev
+		
 		String rev=" ";
 		for (int i = 0; i < st.length(); i++) {
 			rev=st.charAt(i)+rev;
 		}
 		System.out.print(rev);
 		
-		System.out.println("1st");
+		//===============================================
 
 		//2nd way using for loop
+		
 		for (int i = st.length()-1; i >= 0; i--) {
 			System.out.print(st.charAt(i));
 		}
 		
-		System.out.println("2nd");
+		//===============================================
 		
 		//3rd way using char array
+		
 		char ch[] = st.toCharArray();
 		for (int i = ch.length-1; i >= 0; i--) {
 			System.out.print(ch[i]);
 		}
 		
-		System.out.println("3th");
+		//===============================================
 		
 		//4th way using temp
+		
 		char cha[]=st.toCharArray();
 		int i=0, j=st.length()-1;
 		while(i<j) {
@@ -43,9 +47,10 @@ public class ReverseString_1 {
 		String str=new String(cha);
 		System.out.println(str);
 		
-		System.out.println("4th");
+		//===============================================
 		
-		//5th way -->By using count variables
+		//5th way By using count variables
+		
 		char c[] = st.toCharArray();
 		int count=0;
 		for ( char d : c) {
@@ -55,13 +60,13 @@ public class ReverseString_1 {
 			System.out.print(c[i1]);
 		}
 		
-		System.out.println("5th");
+		//===============================================
 		
 		//6th way --> StringBuffer
+		
 		StringBuffer sb= new StringBuffer(st);
 		System.out.println(sb.reverse());
 		
-		System.out.println("6th");
 	}
 
 }

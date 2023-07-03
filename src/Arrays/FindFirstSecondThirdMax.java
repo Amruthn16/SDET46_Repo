@@ -3,8 +3,8 @@ package Arrays;
 public class FindFirstSecondThirdMax {
 
 	public static void main(String[] args) {
-		int[] a= {0,5,1,3,6,9,4};
-		int fmax=Integer.MIN_VALUE, smax=Integer.MIN_VALUE, tmax=Integer.MIN_VALUE;
+		int[] a= {9,0,5,1,3,6,9,4};
+		int fmax=a[0], smax=a[0], tmax=a[0];
 		
 		for (int i = 0; i < a.length; i++) {
 			if(fmax<a[i]) {

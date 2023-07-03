@@ -7,11 +7,11 @@ public class SubString5 {
 	// str="aababbabaabb" and output: aabbaabbaabb using substring method
 
 		String str = "aababbabaabb";
-		String a = str.substring(0,2);
-		String b = str.substring(4, 6);
+		String aa = str.substring(0,2);
+		String bb = str.substring(4,6);
 		
 		for (int i = 0; i <3; i++) {
-			System.out.print(a+b);
+			System.out.print(aa+bb);
 		}
 	}
 }

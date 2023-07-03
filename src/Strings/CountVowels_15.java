@@ -7,16 +7,17 @@ public class CountVowels_15 {
 		String s="India"; //3
 		String st=s.toLowerCase();
 		
-		//Using inbuild indexOf method
+		//Using inbuilt indexOf method
 		String v="AEIOUaeiou";
 		int count = 0;
 		
 		for (int i = 0; i < st.length(); i++) {
 			if(v.indexOf(st.charAt(i))!=-1) {
+				System.out.print(st.charAt(i)+ " ");
 				count++;
 			}
 		}
-		System.out.println("No of vowels present --> "+count);
+		System.out.println("\nNo of vowels present --> "+count);
 		
 		//without using indexOf method
 		char[] ch=st.toCharArray();
@@ -30,5 +31,4 @@ public class CountVowels_15 {
 		System.out.println();
 		System.out.println("No of vowels present --> "+counter);
 	}
-
 }

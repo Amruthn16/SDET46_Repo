@@ -4,7 +4,7 @@ public class FindMinimumNumberInArrayBBsort {
 
 	public static void main(String[] args) {
 
-		int[] a= {7,2,1,0,5};
+		int[] a= {1,0,1,0,1,2,3};
 
 		for (int i = 0; i < a.length; i++) {
 			for (int j = i+1; j < a.length; j++) {
@@ -15,9 +15,11 @@ public class FindMinimumNumberInArrayBBsort {
 				}
 			}
 		}
-		System.out.println("First minimum number --> "+a[0]);
-		System.out.println("Second minimum number --> "+a[1]);
-
+//		System.out.println("First minimum number --> "+a[0]);
+//		System.out.println("Second minimum number --> "+a[1]);
+		for (int i = 0; i < a.length; i++) {
+			System.out.print(a[i]);
+		}
 	}
 
 }

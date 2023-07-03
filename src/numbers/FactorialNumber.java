@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class FactorialNumber {
 
 	public static void main(String[] args) {
-		for(;;) {
+	
 			System.out.println("Enter the number");//4 = 4*3*2*1 = 24
 			Scanner sc= new Scanner(System.in);
 			int n=sc.nextInt();
@@ -16,4 +16,4 @@ public class FactorialNumber {
 			System.out.println(fact);
 		}
 	}
-}
+
